@@ -1,3 +1,3 @@
-# odin-recipes
+# recipes landing page
 
-learning hmtl is fun
+learning hmtl and css is fun
