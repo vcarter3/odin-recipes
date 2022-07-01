@@ -2,16 +2,23 @@ body {
     background-color: #1F2937;
   }
 
-.header-logo {
+#header-logo {
     color: #F9FAF8;
+    
+    padding: 1px 10%;
 }
 
-.header {
-    display:flex;
-    justify-content: space-around;
-    align-items: flex-start;
-
-    color: #E5E7EB;
-    text-align: center;
+.header-right a {
+  color: #E5E7EB;
     font-size: 24px;
+    padding: 1px 20px;
+    text-decoration: none;
+    text-align: center;
   }
+
+
+.header__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
