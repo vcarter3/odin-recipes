@@ -1,41 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Recipes</title>
 </head>
+
 <body>
-    
+
 
     <div class="header">
-        <div class="wrapper header__wrapper">
+
         <h1 id="header-logo">Recipes</h1>
         <nav class="header-right">
             <a>Home</a>
             <a>About</a>
             <a>Contact</a>
         </nav>
-    </div>
-      </div>
 
-    <div class="top">
-        <h1>Do you like food?</h1>
-        <p1>Here you can find lots of interesting vegan recipes. Sign up to join the best recipe newsletter there is.</p1>
-        <button>Sign up</button>
+    </div>
+
+    <div class="hero">
+        <div class="hero-left">
+            <h1>Do you like food?</h1>
+            <p1 class="hero-paragraph"> Here you can find lots of interesting vegan recipes. Sign up to join the best
+                recipe newsletter there is.</p1>
+            <button class=hero-button>Sign up</button>
+        </div>
+
+        <img src="./images/toast.jpg" width="700" height="200">
+
     </div>
 
     <div class="middle">
         <h1>Featured inspiring recipes</h1>
-    <ul>
-    <li><a href="./recipes/vegan_pizza.html">Pizza!</a></li>
-    <li><a href="./recipes/vegan_ice_cream.html">Ice Cream!</a></li>
-    </ul> 
-    </div>  
+        <div class="middle-recipes">
+            <a href="./recipes/vegan_pizza.html">
+                <img src="./images/pizza.jpg">Pizza
+            </a>
+            <a href="./recipes/vegan_ice_cream.html">
+                <img src="./images/ice_cream.jpg">Ice Cream
+            </a>
+        </div>
+    </div>
+
+    <div class="quote">
+        <p1>Food for us comes from our relatives, whether they have wings or fins or roots. That is how we consider
+            food. Food has a culture. It has a history. It has a story. It has relationships.</p1>
+        <p2 id="author">- Winona LaDuke</p2>
+    </div>
+
+    <div class="bottom">
+        <div class="bottom-inside">
+            <p2>It's time. Receive recipes weekly right here.</p2>
+            <button>Sign up</button>
+        </div>
+
+    </div>
 
 
 </body>
+
 </html>
